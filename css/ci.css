@@ -1,0 +1,83 @@
+circle {
+    fill: transparent;
+    stroke: #2bb2e6;
+    stroke-width: 10px;
+    stroke-dasharray: 471;
+    /* stroke-dashoffset: 471; */
+    animation: clock-animation 5s ease-in-out both ;
+}
+svg{
+    width: 100%;
+}
+@keyframes clock-animation {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 0;
+    }
+}
+
+[data-val = v90] circle{
+    animation: clock-animation-v90 5s ease-in-out both ;
+}
+[data-val = v80] circle{
+    animation: clock-animation-v80 5s ease-in-out both ;
+}
+[data-val = v70] circle{
+    animation: clock-animation-v70 5s ease-in-out both ;
+}
+[data-val = v65] circle{
+    animation: clock-animation-v65 5s ease-in-out both ;
+}
+[data-val = v60] circle{
+    animation: clock-animation-v60 5s ease-in-out both ;
+}
+@keyframes clock-animation-v90 {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 188.4;
+    }
+}
+/* @keyframes clock-animation-v90 {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 204.1;
+    }
+} */
+@keyframes clock-animation-v80 {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 219.8;
+    }
+}
+@keyframes clock-animation-v70 {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 250.2;
+    }
+}
+@keyframes clock-animation-v65 {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 266.9;
+    }
+}
+@keyframes clock-animation-v60 {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 282.6;
+    }
+}
