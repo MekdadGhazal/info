@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    user-select: none;
 }
 
 
@@ -54,12 +55,14 @@ i{
     position: relative;
 }
 
-.skill span{
+.skill div{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 30%;
+    display: flex;
+    flex-direction: column;
 }
 .skill .progress{
     width: 70%;
@@ -115,15 +118,15 @@ hr{
 
 .intro>p{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 .intro>p span{
-    padding-right: 2.5rem;
+    padding-right: 1.5rem;
 }
 
 .social-media
 {
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }

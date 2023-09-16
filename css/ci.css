@@ -33,6 +33,13 @@ svg{
 [data-val = v60] circle{
     animation: clock-animation-v60 5s ease-in-out both ;
 }
+[data-val = v50] circle{
+    animation: clock-animation-v50 5s ease-in-out both ;
+}
+[data-val = v40] circle{
+    animation: clock-animation-v40 5s ease-in-out both ;
+}
+
 @keyframes clock-animation-v90 {
     0% {
     stroke-dashoffset: 471;
@@ -79,5 +86,21 @@ svg{
     }
     100% {
     stroke-dashoffset: 282.6;
+    }
+}
+@keyframes clock-animation-v50 {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 312;
+    }
+}
+@keyframes clock-animation-v40 {
+    0% {
+    stroke-dashoffset: 471;
+    }
+    100% {
+    stroke-dashoffset: 340.6;
     }
 }
