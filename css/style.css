@@ -15,6 +15,7 @@ h1{
     margin: 0 auto;
     background-color: #2bb2e6;
     border-radius: 25px;
+    box-shadow: 0 20px 10px -14px #3333;
 }
 
 img{
@@ -36,10 +37,12 @@ ul li{
 .row div.section2{
     background-color: #e7fafe;
     border-radius: 6px;
+    box-shadow: 0 19px 10px -13px #3333;
 }
 
 .row div.section3{
     background-color: #efeff7;
+    box-shadow: 0 30px 10px -17px #3333;
 }
 
 .icons i , .icons span{
